@@ -21,7 +21,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/valor_em_dolar" />jh
+        android:text="@string/valor_em_dolar" />
 
     <TextView
         android:id="@+id/text_dolar"
