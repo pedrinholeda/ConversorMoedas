@@ -16,12 +16,12 @@
         android:id="@+id/edit_valor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="10" />
+        android:text="" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/valor_em_dolar" />
+        android:text="@string/valor_em_dolar" />jh
 
     <TextView
         android:id="@+id/text_dolar"
