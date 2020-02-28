@@ -1,50 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="8dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
         android:layout_height="wrap_content"
+        android:textSize="25sp"
         android:text="@string/qual_o_valor_em_real" />
 
     <EditText
         android:id="@+id/edit_valor"
-        android:layout_width="wrap_content"
+        android:inputType="number"
+        android:layout_width="120dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/colorDorado"
+        android:textSize="23sp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
         android:text="" />
 
     <TextView
         android:layout_width="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="40dp"
         android:layout_height="wrap_content"
         android:text="@string/valor_em_dolar" />
 
     <TextView
         android:id="@+id/text_dolar"
+        android:textSize="20sp"
+        android:textColor="@color/colorDorado"
+        android:layout_marginTop="12dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/valor_em_dolar" />
 
     <TextView
         android:layout_width="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="40dp"
         android:layout_height="wrap_content"
         android:text="@string/valor_em_euro" />
 
     <TextView
         android:id="@+id/text_euro"
+        android:textSize="20sp"
+        android:textColor="@color/colorDorado"
+        android:layout_marginTop="12dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/valor_em_euro" />
 
     <Button
         android:id="@+id/button_calculate"
+        android:layout_marginTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/calcular" />
+        android:text="@string/calcular"
+        android:textColor="@color/colorLight"
+        android:background="@color/colorClaro"/>
 
 
 </LinearLayout>
