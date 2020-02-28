@@ -4,9 +4,7 @@
     <color name="colorPrimaryDark">#CCBC30</color>
     <color name="colorAccent">#E1D03D</color>
     <color name="colorLight">#FFFFFF</color>
-    <color name="colorPrimaryText">#212121</color>
-    <color name="colorSecundaryText">#757575</color>
     <color name="colorPretoText">#000000</color>
     <color name="colorClaro">#545353</color>
-    <color name="colorDorado">#CCB90E</color>
+    <color name="colorDourado">#CCB90E</color>
 </resources>

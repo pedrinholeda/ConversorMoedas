@@ -21,7 +21,7 @@
         android:layout_width="120dp"
         android:textAlignment="center"
         android:fontFamily="sans-serif-black"
-        android:textColor="@color/colorDorado"
+        android:textColor="@color/colorDourado"
         android:textSize="23sp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -38,7 +38,7 @@
     <TextView
         android:id="@+id/text_dolar"
         android:textSize="20sp"
-        android:textColor="@color/colorDorado"
+        android:textColor="@color/colorDourado"
         android:layout_marginTop="12dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
     <TextView
         android:id="@+id/text_euro"
         android:textSize="20sp"
-        android:textColor="@color/colorDorado"
+        android:textColor="@color/colorDourado"
         android:layout_marginTop="12dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:text="@string/calcular"
         android:textColor="@color/colorLight"
-        android:background="@color/colorClaro"/>
+        android:background="@color/colorPretoText"/>
 
 
 </LinearLayout>
