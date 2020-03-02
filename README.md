@@ -1,6 +1,6 @@
 # ConversorMoedas
 
-### App Simples Desenvolvido para a plataforma android, com o proposito de estudar apps desenvolvidos para plataforma.
+### App Simples Desenvolvido para a plataforma android, com o proposito de estudar conceitos da programação para Andoid e conhecer mais o desenvolvimento mobile Nativo.
 
 ## Funções presentes no App:
 
